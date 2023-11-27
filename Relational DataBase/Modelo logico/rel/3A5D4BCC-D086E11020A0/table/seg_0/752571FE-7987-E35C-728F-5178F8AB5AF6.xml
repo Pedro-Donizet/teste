@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="752571FE-7987-E35C-728F-5178F8AB5AF6" name="ESTADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>07F91ED5-B38F-2869-893F-5B67B7D81651</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2D9529BA-99DD-8341-9D5F-74C3504832CD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>2CF626A6-8AF8-A61B-6DF7-0EBBA8D49B75</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="8DA5FFB8-06CD-929A-63D7-0077C14ECD6C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>6CCFDD10-83C7-D978-C7A7-EF1A3F59B7F1</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="F028CBA3-115F-B0E3-3D29-2479DDDEAB6F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>FCABAEB1-96EA-74E6-9ED2-35BAE8E3F6B1</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="0028C451-425A-64CA-2D8C-8D0BB10B57FF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>98DD990E-4BB2-3764-05F7-E75451B525E6</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31BAF140-0803-A2D5-843A-14D1817AE0BB" referredColumn="CAF4DC90-B953-7E95-D240-4C14227C19B6"/>
+</associations>
+</Column>
+<Column name="ESTADO_ID" id="6F43A1A5-4467-0713-6DC6-7DD719F31B15">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="839EEB4E-86D9-F69B-50C4-884B81FE27A1" name="ESTADO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6F43A1A5-4467-0713-6DC6-7DD719F31B15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B457C252-1B0A-1134-102A-1583A31A27E6" name="ESTADO_PAIS_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>13CEA3AD-EB8E-5B6A-963E-EA2B247C16C4</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0028C451-425A-64CA-2D8C-8D0BB10B57FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

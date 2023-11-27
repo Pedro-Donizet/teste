@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D65BA033-25B9-8260-2CA3-3A9531D29CD2" name="CADASTRO_PLANO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>2856D508-5A47-347D-608B-42A60E61D58E</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E6E0BD2E-9EDB-E6BC-2351-652305C0A437">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>763E3F1D-1450-F495-E462-0FFB0FC6DD43</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_REPRESENTANTE" id="D6DE9B66-5246-2D97-06EB-F28C3CB7164C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>97497BB5-BA17-A210-6013-8B99C15F0C89</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_DEPENDENTE" id="AA169902-5B7B-8CA9-0161-EB965575102A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>C728943E-45BC-23B2-EB2A-788DF135FE26</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plano_familia_ID" id="059E97A2-655C-BD15-AE62-F90EF627241F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>5425A27A-FC04-1ECB-A680-F57AA6FA11EB</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E07AC1E3-BCAC-C9E8-7973-C7B2D7399896" referredColumn="93FC6776-92C0-9522-BCDB-C4B4D36245C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F12A25A-99C6-6232-040B-A95C4616B2EF" name="CADASTRO_PLANO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CFFF4AD4-03BD-F1BC-7547-CBB5F1CD6E81</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="059E97A2-655C-BD15-AE62-F90EF627241F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0733631E-7498-9DEA-D456-9B4C87FDCF2C" name="CADASTRO_PLANO_Plano_familia_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>CFFF4AD4-03BD-F1BC-7547-CBB5F1CD6E81</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="059E97A2-655C-BD15-AE62-F90EF627241F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

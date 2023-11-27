@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA0BF5BA-BF9F-3168-7663-C51D04C8D40A" name="Plano_familia">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>DEAB1DDB-A802-D630-0471-8B621BFA7210</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="93FC6776-92C0-9522-BCDB-C4B4D36245C6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>DF4E7160-5F67-4766-4C72-C1842D6E38F9</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_REPRESENTANTE" id="85A8D5CA-CE67-AE93-1898-C73D07D83A0D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>A448BF40-8178-0A85-750A-D083A1488516</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPENDENTES" id="30D1E0D4-1383-AF2B-C0A3-8781B4D39459">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>08AB8EEE-0280-7D27-DD7B-AB655C4B6038</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0F695AC-3113-E6C9-422C-B37911CC8C12" name="Plano_familia_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>43EECECB-6765-FDBE-F739-2B3235CD3C8A</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93FC6776-92C0-9522-BCDB-C4B4D36245C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

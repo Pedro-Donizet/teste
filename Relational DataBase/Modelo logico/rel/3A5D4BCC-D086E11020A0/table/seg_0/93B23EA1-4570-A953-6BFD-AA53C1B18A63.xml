@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B23EA1-4570-A953-6BFD-AA53C1B18A63" name="CIDADE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>C79EB536-8F27-494A-C0E9-278E6557C89C</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FC997575-3014-1B7D-F1DF-641F600BA054">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>B1EFBD54-EA10-75C7-7753-607B2684D63A</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="521F356C-14CA-8C74-4E6F-821B1BB2AB11">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>2B096B45-DC34-F566-B5D1-614CBD582FA7</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="21D3D80B-71E3-5B27-AEFD-AA0F3AE0D98A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>5C40CE8B-256C-E91C-EFAE-A14C9888E9AD</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO" id="FA37F6BE-4B8D-00B8-F28F-7DEAA2A041B6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>AC7D6137-5199-1492-E000-EABD7084A2CC</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ESTADO_ID" id="24DBBD75-DAB4-FF12-BA6C-3C14FC3586A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30CDE7DF-50BC-8CC9-65E3-9BDC48106B54" referredColumn="6F43A1A5-4467-0713-6DC6-7DD719F31B15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA488E58-964B-5158-7B50-1E7CF74BE477" name="CIDADE_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>E5289367-C505-DA86-A8D9-79D619C8B97C</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC997575-3014-1B7D-F1DF-641F600BA054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C79F2C7E-B576-C302-E5B7-89A46CE842D1" name="CIDADE_ESTADO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>A9049C65-4424-D9EC-46E2-234E21F54FA4</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24DBBD75-DAB4-FF12-BA6C-3C14FC3586A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

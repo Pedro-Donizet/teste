@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F69535D9-8328-E0CC-1F7F-A59173240ED3" containerWithKeyObject="D7EDBB76-10AB-5534-0834-F99E8C17E1F7" localFKIndex="82377D09-9228-C352-F1F8-6FBC4279C97C" name="ENDERECO_Paciente_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>5D4B47D3-A50C-806D-CF18-5E0AAC737800</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<referredTableLongName>Paciente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BECE47CF-D83E-C389-2493-EC487293917C</referredTableID>
+<keyObject>222B19A2-AA69-9F74-A76C-4AA54CB39DF9</keyObject>
+<referredKeyID>222B19A2-AA69-9F74-A76C-4AA54CB39DF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

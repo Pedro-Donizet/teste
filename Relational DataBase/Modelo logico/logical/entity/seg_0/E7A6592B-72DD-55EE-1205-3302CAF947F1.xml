@@ -33,8 +33,11 @@
 <item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ESPECIALIZAÇÃO" id="38529C6F-97D3-84AD-5A90-A0205D32BE5B">
 <createdBy>logonrmlocal</createdBy>
@@ -44,6 +47,21 @@
 <item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FK_MEDICO" id="AE8F09F9-FF88-EE0A-D838-A9550C9DC780">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 14:36:06 UTC</createdTime>
+<generatorID>3F4215D9-ECBD-CF51-897D-181A132C5591</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>0E0A45F9-FDF2-AE73-685D-EACEED004234</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

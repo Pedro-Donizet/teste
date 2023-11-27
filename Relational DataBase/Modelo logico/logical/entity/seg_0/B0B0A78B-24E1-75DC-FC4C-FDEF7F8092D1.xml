@@ -73,10 +73,10 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="87E70C88-199A-9765-C05C-882E1D877F7E">
+<Attribute name="FK_MEDICO" id="EE936311-6F03-F8F7-6F82-FC36DF70D92F">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-24 12:03:34 UTC</createdTime>
-<generatorID>4927BE94-337C-87CA-709A-760E65C7B3BC</generatorID>
+<createdTime>2023-11-27 14:35:15 UTC</createdTime>
+<generatorID>BAC43721-49BA-BD5B-D954-19A64AA046D4</generatorID>
 <ownerDesignName>Modelo logico</ownerDesignName>
 <engineerTo>
 <item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
@@ -85,27 +85,15 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID3" id="473B1FEB-F411-069A-7736-5FCAC336A7C3">
+<Attribute name="FK_CONSULTA_PACIENTE" id="6418E3DA-38A9-BBE8-DC38-DEBD144D86FD">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-24 12:04:00 UTC</createdTime>
-<generatorID>48941EC0-7ABB-DE70-D6CC-1A58093F7DEB</generatorID>
+<createdTime>2023-11-27 14:35:31 UTC</createdTime>
+<generatorID>4315FDA4-B8F6-2C64-A889-42D4713F0A28</generatorID>
 <ownerDesignName>Modelo logico</ownerDesignName>
 <engineerTo>
 <item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
 </engineerTo>
 <referedAttribute>E79A48E9-4927-24FA-E816-5AAAFF0DBAE1</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID1" id="789B29C8-078C-BB91-B022-EC435766E92E">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-24 12:21:00 UTC</createdTime>
-<generatorID>6977DCFB-6E45-88C3-E9B9-7FE8CFF15161</generatorID>
-<ownerDesignName>Modelo logico</ownerDesignName>
-<engineerTo>
-<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
-</engineerTo>
-<referedAttribute>DF4E7160-5F67-4766-4C72-C1842D6E38F9</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

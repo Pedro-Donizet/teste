@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E07AC1E3-BCAC-C9E8-7973-C7B2D7399896" containerWithKeyObject="D65BA033-25B9-8260-2CA3-3A9531D29CD2" localFKIndex="0733631E-7498-9DEA-D456-9B4C87FDCF2C" name="CADASTRO_PLANO_Plano_familia_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>CFFF4AD4-03BD-F1BC-7547-CBB5F1CD6E81</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<referredTableLongName>Plano_familia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA0BF5BA-BF9F-3168-7663-C51D04C8D40A</referredTableID>
+<keyObject>B0F695AC-3113-E6C9-422C-B37911CC8C12</keyObject>
+<referredKeyID>B0F695AC-3113-E6C9-422C-B37911CC8C12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

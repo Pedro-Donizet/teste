@@ -67,18 +67,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="0D27811C-F5CE-5250-E377-6C779EEC97AC">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-24 11:59:36 UTC</createdTime>
-<generatorID>5F17720C-3555-71F0-947F-DCD078333CA0</generatorID>
-<ownerDesignName>Modelo logico</ownerDesignName>
-<engineerTo>
-<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
-</engineerTo>
-<referedAttribute>FA16CC73-B0A9-49E2-6CDD-D2E23E72B927</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7F78517E-72D6-13EB-C5F4-6F79CE927296" name="Cadastro_medico PK">

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7EDBB76-10AB-5534-0834-F99E8C17E1F7" name="ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>BBB105C4-9030-DE73-47A0-123E95BF1F4D</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AE8F9A15-0E38-1E17-785C-FDF4BEA6209B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>9448B56D-E5D5-A080-66CE-F3E25D2779B9</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUA_ID" id="6037732D-068D-729B-7318-DDBDA9DF05C9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>2695CE9D-697C-6A83-EF1F-281DADD65F6F</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1949591B-25AE-76AA-DDE7-15C2C3E7B5DD" referredColumn="7B128D23-471E-A373-168E-CB35C9947378"/>
+</associations>
+</Column>
+<Column name="Paciente_ID" id="47114840-5C7A-6EC0-27C3-72A0D9C7B305">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>E9D8E51F-FA65-A00B-6515-7E41E03D77A7</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F69535D9-8328-E0CC-1F7F-A59173240ED3" referredColumn="77D730C0-3A4A-2AC8-D84B-4646FB7CC6B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F46FF74B-691A-C96D-FC37-703B5DA56448" name="ENDERECO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>153895B2-5CA5-7AC5-467B-8E12C28A4DFA</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE8F9A15-0E38-1E17-785C-FDF4BEA6209B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E080E02-A0ED-2729-BCE1-B33F306B471A" name="ENDERECO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>140A7A33-3F7F-FC83-111F-E7E5C8E506C3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6037732D-068D-729B-7318-DDBDA9DF05C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="028110C9-0195-157C-2083-5BC3FF08C0CF" name="ENDERECO_RUA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>140A7A33-3F7F-FC83-111F-E7E5C8E506C3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6037732D-068D-729B-7318-DDBDA9DF05C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82377D09-9228-C352-F1F8-6FBC4279C97C" name="ENDERECO_Paciente_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>5D4B47D3-A50C-806D-CF18-5E0AAC737800</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47114840-5C7A-6EC0-27C3-72A0D9C7B305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

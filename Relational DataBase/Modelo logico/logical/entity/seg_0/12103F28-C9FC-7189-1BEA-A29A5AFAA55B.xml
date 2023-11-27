@@ -94,18 +94,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="967603A4-0BB1-3E8A-B3D7-B11332C4DD99">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-24 12:01:24 UTC</createdTime>
-<generatorID>81E9FABC-48AA-C105-6B2D-FED7284059FF</generatorID>
-<ownerDesignName>Modelo logico</ownerDesignName>
-<engineerTo>
-<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
-</engineerTo>
-<referedAttribute>E79A48E9-4927-24FA-E816-5AAAFF0DBAE1</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8669875D-09C8-D27A-A9EC-9AD4C0B5DCE6" name="Cadastro PK">

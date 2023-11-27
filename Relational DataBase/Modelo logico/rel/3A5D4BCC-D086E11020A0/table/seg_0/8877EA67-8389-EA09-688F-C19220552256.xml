@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8877EA67-8389-EA09-688F-C19220552256" name="consulta">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>B0B0A78B-24E1-75DC-FC4C-FDEF7F8092D1</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BD4AE353-82D7-02AC-4D28-75622826FDEB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>3BD288CE-1770-9767-0388-A800D17D28DB</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIA_CONSULTA" id="7421F736-286E-E1F9-5EF3-2312D0E9AEBB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>EA94E4B6-07C2-9190-D9F1-B2FDB564E43F</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO_CONSULTA" id="EF960214-372C-761E-84C4-25422A8A074E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>5488B609-DF06-D251-B03E-20664BCC00B3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO" id="7A919354-8FE0-B106-2F8B-57F2BB9A42CD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>6B005517-5C3A-8C4E-3BD8-1419EC546118</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE" id="78C7A645-F4B9-72A4-BDFF-306A640B0B54">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>245D37A4-DA54-BC42-E720-2E8D082FEC77</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medico_ID" id="6DBF6D79-60C8-3B69-D9C3-AC722E6B61E3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>87E70C88-199A-9765-C05C-882E1D877F7E</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB21CD2B-BB6E-11EF-FEA8-2199BC916397" referredColumn="111393D7-7876-0CB9-ECE6-1472DC896507"/>
+</associations>
+</Column>
+<Column name="Paciente_ID" id="D89BE8F6-DFB2-C2CC-9F0E-B013D32793F7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>473B1FEB-F411-069A-7736-5FCAC336A7C3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF42EB54-F05D-3B1C-3EFE-9F9D6D0EA0FD" referredColumn="77D730C0-3A4A-2AC8-D84B-4646FB7CC6B8"/>
+</associations>
+</Column>
+<Column name="Plano_familia_ID" id="4A2064FE-A011-E691-6141-F6C81F356C0F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>789B29C8-078C-BB91-B022-EC435766E92E</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D58DFBAD-762F-89F7-CFC2-2247E1115024" referredColumn="93FC6776-92C0-9522-BCDB-C4B4D36245C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1898B17B-2007-6510-3F34-A60D8C8E5A24" name="consulta_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>2505135A-4A72-BA67-0B93-64BB427FDAE9</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD4AE353-82D7-02AC-4D28-75622826FDEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B2618DF-F1FE-2A34-10ED-A146285CF815" name="consulta__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>48941EC0-7ABB-DE70-D6CC-1A58093F7DEB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D89BE8F6-DFB2-C2CC-9F0E-B013D32793F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CCD28A9-9048-D1AF-CB3F-24332EF7E144" name="consulta__IDXv1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6977DCFB-6E45-88C3-E9B9-7FE8CFF15161</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4A2064FE-A011-E691-6141-F6C81F356C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E955078-F2C9-1426-1C8D-E7432FD50E7F" name="consulta_Medico_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>4927BE94-337C-87CA-709A-760E65C7B3BC</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DBF6D79-60C8-3B69-D9C3-AC722E6B61E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23D27828-51B7-1BBC-3DF8-9CF3E3264AEE" name="consulta_Paciente_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>48941EC0-7ABB-DE70-D6CC-1A58093F7DEB</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D89BE8F6-DFB2-C2CC-9F0E-B013D32793F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5640809C-DD7E-2460-06DC-DBC0E6FE39DC" name="consulta_Plano_familia_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 12:03:58 UTC</createdTime>
+<generatorID>6977DCFB-6E45-88C3-E9B9-7FE8CFF15161</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2064FE-A011-E691-6141-F6C81F356C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

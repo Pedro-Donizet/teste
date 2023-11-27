@@ -54,17 +54,33 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="5425A27A-FC04-1ECB-A680-F57AA6FA11EB">
+<Attribute name="CPF_REPRESENTANTE" id="7ACE80B5-CFEB-65E9-30B2-CEB1A4382B2D">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-24 12:20:24 UTC</createdTime>
-<generatorID>CFFF4AD4-03BD-F1BC-7547-CBB5F1CD6E81</generatorID>
+<createdTime>2023-11-27 14:31:45 UTC</createdTime>
 <ownerDesignName>Modelo logico</ownerDesignName>
 <engineerTo>
 <item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
 </engineerTo>
-<referedAttribute>DF4E7160-5F67-4766-4C72-C1842D6E38F9</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF_DEPENDENTE" id="941E980B-470E-7005-E5DA-3BE925EDC2F3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-27 14:32:06 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
