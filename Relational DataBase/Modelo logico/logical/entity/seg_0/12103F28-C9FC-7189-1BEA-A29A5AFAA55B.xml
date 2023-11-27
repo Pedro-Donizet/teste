@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12103F28-C9FC-7189-1BEA-A29A5AFAA55B" name="Cadastro_paciente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:44:15 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="61A5184E-143E-8ECC-5139-ED69F69CE089">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:44:27 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="19BE3882-0AB1-D460-F804-1D469AD9B4D2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:44:41 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="6644018A-65C5-6A30-00BF-15E5FF90A663">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:45:15 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="BA67DAD0-E30B-57B8-76E9-C02820DE63E2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:45:38 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_COMPLETO" id="E5601AA8-6514-2DB6-152E-4ADF51EE90ED">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:46:26 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_CARTEIRINHA" id="5141A6D5-8EF2-6D54-3C0C-B2F9F15FB42D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:52:17 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="967603A4-0BB1-3E8A-B3D7-B11332C4DD99">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:01:24 UTC</createdTime>
+<generatorID>81E9FABC-48AA-C105-6B2D-FED7284059FF</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>E79A48E9-4927-24FA-E816-5AAAFF0DBAE1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8669875D-09C8-D27A-A9EC-9AD4C0B5DCE6" name="Cadastro PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 11:44:32 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61A5184E-143E-8ECC-5139-ED69F69CE089</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

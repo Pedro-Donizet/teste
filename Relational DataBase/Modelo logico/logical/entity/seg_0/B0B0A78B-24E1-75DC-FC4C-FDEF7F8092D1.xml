@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0B0A78B-24E1-75DC-FC4C-FDEF7F8092D1" name="consulta">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:01:30 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3BD288CE-1770-9767-0388-A800D17D28DB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:01:36 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIA_CONSULTA" id="EA94E4B6-07C2-9190-D9F1-B2FDB564E43F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:01:42 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORARIO_CONSULTA" id="5488B609-DF06-D251-B03E-20664BCC00B3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:02:02 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDICO" id="6B005517-5C3A-8C4E-3BD8-1419EC546118">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:02:19 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PACIENTE" id="245D37A4-DA54-BC42-E720-2E8D082FEC77">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:03:03 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="87E70C88-199A-9765-C05C-882E1D877F7E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:03:34 UTC</createdTime>
+<generatorID>4927BE94-337C-87CA-709A-760E65C7B3BC</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>FA16CC73-B0A9-49E2-6CDD-D2E23E72B927</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="473B1FEB-F411-069A-7736-5FCAC336A7C3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:04:00 UTC</createdTime>
+<generatorID>48941EC0-7ABB-DE70-D6CC-1A58093F7DEB</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>E79A48E9-4927-24FA-E816-5AAAFF0DBAE1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="789B29C8-078C-BB91-B022-EC435766E92E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:21:00 UTC</createdTime>
+<generatorID>6977DCFB-6E45-88C3-E9B9-7FE8CFF15161</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>DF4E7160-5F67-4766-4C72-C1842D6E38F9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2505135A-4A72-BA67-0B93-64BB427FDAE9" name="consulta PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:01:41 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BD288CE-1770-9767-0388-A800D17D28DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

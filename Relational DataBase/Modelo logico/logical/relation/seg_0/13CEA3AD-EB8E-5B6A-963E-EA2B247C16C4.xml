@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID_ESTADO" directorySegmentName="seg_0" id="13CEA3AD-EB8E-5B6A-963E-EA2B247C16C4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:42:39 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<sourcePk>C14D6CA6-A1A6-3F55-1EFF-F692AD15DF25</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BD351B1-4DAD-A13E-3670-47B83B3E083F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>07F91ED5-B38F-2869-893F-5B67B7D81651</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

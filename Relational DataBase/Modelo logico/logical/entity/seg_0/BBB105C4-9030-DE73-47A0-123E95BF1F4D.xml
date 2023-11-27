@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBB105C4-9030-DE73-47A0-123E95BF1F4D" name="ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:42:10 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9448B56D-E5D5-A080-66CE-F3E25D2779B9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:42:15 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RUA" id="2695CE9D-697C-6A83-EF1F-281DADD65F6F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:44:50 UTC</createdTime>
+<generatorID>140A7A33-3F7F-FC83-111F-E7E5C8E506C3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>8171A1EC-6261-58D1-D59D-E4D926F1E13B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="E9D8E51F-FA65-A00B-6515-7E41E03D77A7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:47:26 UTC</createdTime>
+<generatorID>5D4B47D3-A50C-806D-CF18-5E0AAC737800</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<referedAttribute>E79A48E9-4927-24FA-E816-5AAAFF0DBAE1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="153895B2-5CA5-7AC5-467B-8E12C28A4DFA" name="ENDERECO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-24 12:42:17 UTC</createdTime>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="3A5D4BCC-DED8-3CAD-59F0-D086E11020A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9448B56D-E5D5-A080-66CE-F3E25D2779B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
